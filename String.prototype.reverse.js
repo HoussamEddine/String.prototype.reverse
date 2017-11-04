@@ -22,3 +22,5 @@ Object.defineProperty(String.prototype, "reverse", {
     return newString;
   }
 });
+
+// easy way : str.split("").reverse().join("")
